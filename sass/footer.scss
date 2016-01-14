@@ -1,0 +1,52 @@
+
+/*===================
+ footer
+ ====================*/
+
+footer {
+  background: $color-second;
+}
+
+/*===================
+ first
+ ====================*/
+
+.first {
+  margin: 65px auto 65px auto;
+
+  ul {
+    margin: 25px 0;
+  }
+
+  li {
+    list-style: none;
+
+    a {
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.125em;
+     font-weight: 400;
+     line-height: 2.25em;
+    }
+  }
+}
+
+
+/*===================
+ second
+ ====================*/
+
+.second {
+  margin: 70px 0 127px 0;
+
+  p {
+    color: white;
+    font-family: 'proxima_novalight', sans-serif;
+    font-size: 1.125em;
+    font-weight: 300;
+
+    span {
+      font-weight: 700;
+    }
+  }
+}

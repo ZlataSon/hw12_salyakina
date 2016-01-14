@@ -1,0 +1,280 @@
+
+
+/*===================
+ main
+ ====================*/
+
+/*===================
+ section top
+ ====================*/
+.top {
+  background: #c2bcb7 url("../img/bg.svg") no-repeat scroll center top;
+  background-size: cover;
+
+  h2 {
+    color: $color-second;
+  }
+
+  h3 {
+    color: $text-color-1;
+    margin-bottom: 108px;
+  }
+
+  p {
+    color: $text-color-2;
+    line-height: 1.875em;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  .ask {
+    @include btn;
+    color: #ffffff;
+    background: $color-main;
+    font-size: 1.125em;
+    padding: 1.25em 4.25em;
+
+    &:hover, &:focus {
+      text-decoration: none;
+      background: $color-second;
+      color: #ffffff;
+    }
+  }
+}
+
+
+.top .row {
+  margin: 3.2em 0 3.2em 0;
+  text-align: center;
+}
+
+.video {
+  min-height: 546px;
+  background: url("../img/monitor.svg") no-repeat scroll center center;
+}
+
+.video-wrapper {
+  width: 715px;
+  max-width: 100%;
+  margin: 3% auto;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 50%;
+  padding-top: 10%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/*===================
+ creativity
+ ====================*/
+
+.creativity {
+  background: #c2bcb7 url("../img/bg-2.svg") no-repeat scroll center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .row {
+    margin: 22.2em 0 12.1em 0;
+    text-align: center;
+
+    .ask {
+      @include btn;
+      box-shadow: 0 0 8.35em 1.713em #ffffff;
+      background: $color-second;
+      color: #ffffff;
+      font-size: 1.125em;
+      padding: 1.25em 4.25em;
+
+      &:hover, &:focus {
+        background: $color-main;
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+/*===================
+ how we work
+ ====================*/
+.how {
+  background: $color-second;
+
+  .row {
+    margin: 110px auto;
+  }
+
+  h2 {
+    color: #ffffff;
+  }
+
+  h3 {
+    color: $text-color-3;
+  }
+
+  p {
+    margin: 1.8em 1.5em;
+    color: #ffffff;
+  }
+
+  img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .ask {
+    @include btn;
+    background: #ffffff;
+    color: $color-second;
+    font-size: 1.125em;
+    padding: 1.25em 4.25em;
+
+    &:hover, &:focus {
+      background: $color-main;
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+}
+
+/*===================
+ opinion
+ ====================*/
+
+.opinion {
+  background: #ffffff;
+
+  .item {
+    min-height: 500px;
+  }
+
+  li {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0px, transparent 100%);
+  }
+
+  img {
+    margin: 100px auto 50px auto;
+  }
+
+  blockquote {
+    padding: 0;
+    margin: 0;
+    border-left: none;
+    font-family: 'Roboto', sans-serif;
+    color: $text-color-2;
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  cite {
+    font-size: 1em;
+    font-weight: 300;
+
+    a {
+      color: $text-color-2;
+      text-decoration: underline;
+    }
+  }
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: auto;
+  right: 15%;
+  left: 15%;
+  z-index: 10;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  color: #FFF;
+  text-align: center;
+  text-shadow: none;
+}
+
+.carousel-control.left {
+  background-image: linear-gradient(to right, #ffffff 0px, transparent 100%);
+  background-repeat: repeat-x;
+}
+
+.carousel-control.right {
+  background-image: linear-gradient(to right, transparent 0px, #ffffff 100%);
+  background-repeat: repeat-x;
+}
+
+
+  /*===================
+   team
+   ====================*/
+.team {
+  background: #edeff1;
+
+  h2 {
+    color: $color-second;
+    margin-top: 50px;
+  }
+
+  h3 {
+    color: $text-color-1;
+  }
+
+  p {
+    color: $text-color-2;
+    line-height: 1.875em;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  .ask {
+    @include btn;
+    color: #ffffff;
+    background: $color-main;
+    font-size: 1.125em;
+    padding: 1.25em 4.25em;
+
+    &:hover, &:focus {
+      text-decoration: none;
+      background: $color-second;
+      color: #ffffff;
+    }
+  }
+  .row {
+    margin: 3.2em 0 3.2em 0;
+    text-align: center;
+  }
+
+  .last {
+    margin-bottom: 6em;
+  }
+}
+
+/*===================
+ map
+ ====================*/
+
+#map {
+  width: 100%;
+  height: 38em;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+

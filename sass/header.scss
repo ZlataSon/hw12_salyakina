@@ -1,0 +1,65 @@
+/*===================
+ header
+ ====================*/
+header {
+  line-height: 0;
+}
+
+/*===================
+ logo and navbar
+ ====================*/
+
+.logo {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+nav, .navbar-toggle {
+  margin: 30px 5px 15px 5px;
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.menu-btn {
+  color: $text-color-1;
+  font-size: 1.25em;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border-radius: 1.375em;
+  border: 0.08em solid transparent;
+  background: transparent;
+  padding: 15px 10px;
+
+  &:hover, &:focus {
+    background: transparent;
+    text-decoration: none;
+    border: 0.08em solid rgb(159, 171, 186);
+  }
+}
+
+.social {
+  display: inline-block;
+  margin: 25px 10px 10px 10px;
+  text-align: center;
+  border-radius: 1.375em;
+  border: 0.08em solid transparent;
+  background: transparent;
+
+  &:hover, &:focus {
+    background: $color-main;
+    box-shadow: 0 0 8.35em 1.713em #c8c8c8;
+  }
+}
+
+
+

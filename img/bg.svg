@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Avocode 2.4.5 - http://avocode.com -->
+<svg height="1680" width="2000" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1680">
+    <defs>
+        <linearGradient y2="0%" y1="100%" x2="0%" x1="0%" id="gradient-1">
+            <stop stop-color="#edeff1" offset="0%" />
+            <stop stop-color="#edeff1" offset="1%" />
+            <stop stop-color="#ffffff" offset="24%" />
+            <stop stop-color="#e2e4e8" offset="31%" />
+            <stop stop-color="#ffffff" offset="100%" />
+        </linearGradient>
+    </defs>
+    <path fill="url(#gradient-1)" fill-rule="evenodd" d="M 0 0 C 0 0 2002 0 2002 0 C 2002 0 2002 1680 2002 1680 C 2002 1680 0 1680 0 1680 C 0 1680 0 0 0 0 Z" />
+</svg>
